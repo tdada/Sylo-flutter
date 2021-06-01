@@ -1,0 +1,19 @@
+com/arthenica/flutter/ffmpeg/FlutterFFmpegGetMediaInformationAsyncTask.java
+ com.arthenica.flutter.ffmpeg.FlutterFFmpegGetMediaInformationAsyncTask
+com/arthenica/flutter/ffmpeg/FlutterFFmpegExecuteFFmpegAsyncArgumentsTask.java
+ com.arthenica.flutter.ffmpeg.FlutterFFmpegExecuteFFmpegAsyncArgumentsTask
+com/arthenica/flutter/ffmpeg/FlutterFFmpegExecuteFFprobeAsyncArgumentsTask.java
+ com.arthenica.flutter.ffmpeg.FlutterFFmpegExecuteFFprobeAsyncArgumentsTask
+com/arthenica/flutter/ffmpeg/FlutterFFmpegResultHandler.java
+ com.arthenica.flutter.ffmpeg.FlutterFFmpegResultHandler
+ com.arthenica.flutter.ffmpeg.FlutterFFmpegResultHandler$1
+ com.arthenica.flutter.ffmpeg.FlutterFFmpegResultHandler$2
+ com.arthenica.flutter.ffmpeg.FlutterFFmpegResultHandler$3
+com/arthenica/flutter/ffmpeg/FlutterFFmpegPlugin.java
+ com.arthenica.flutter.ffmpeg.FlutterFFmpegPlugin
+ com.arthenica.flutter.ffmpeg.FlutterFFmpegPlugin$1
+ com.arthenica.flutter.ffmpeg.FlutterFFmpegPlugin$2
+ com.arthenica.flutter.ffmpeg.FlutterFFmpegPlugin$3
+ com.arthenica.flutter.ffmpeg.FlutterFFmpegPlugin$4
+com/arthenica/flutter/ffmpeg/BuildConfig.java
+ com.arthenica.flutter.ffmpeg.BuildConfig

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Volumes/Data/Flutter/testsylo/build/firebase_messaging/intermediates/res/merged/release/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/lenovo/.gradle/caches/transforms-2/files-2.1/93e2518592b2afbe0ed1e76fe4c92dff/jetified-play-services-base-17.0.0/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Flutter/testsylo/build/firebase_messaging/intermediates/res/merged/release/color/common_google_signin_btn_tint.xml",
+        "source": "/Users/lenovo/.gradle/caches/transforms-2/files-2.1/93e2518592b2afbe0ed1e76fe4c92dff/jetified-play-services-base-17.0.0/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Flutter/testsylo/build/firebase_messaging/intermediates/res/merged/release/color/common_google_signin_btn_text_light.xml",
+        "source": "/Users/lenovo/.gradle/caches/transforms-2/files-2.1/93e2518592b2afbe0ed1e76fe4c92dff/jetified-play-services-base-17.0.0/res/color/common_google_signin_btn_text_light.xml"
+    }
+]

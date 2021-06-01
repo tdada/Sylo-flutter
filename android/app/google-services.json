@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "362303426939",
+    "firebase_url": "https://sylo-a980b.firebaseio.com",
+    "project_id": "sylo-a980b",
+    "storage_bucket": "sylo-a980b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362303426939:android:b10b7680c087777a5aedde",
+        "android_client_info": {
+          "package_name": "com.sylo.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "362303426939-0j0gd13j088ckk89v6im5r7hti367d66.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqjDjUgJryScTCsN9zzNb9H6hFzKMQ9mE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "362303426939-0j0gd13j088ckk89v6im5r7hti367d66.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

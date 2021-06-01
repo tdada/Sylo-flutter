@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Volumes/Data/Flutter/testsylo/build/flutter_uploader/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/Users/lenovo/.gradle/caches/transforms-2/files-2.1/fc2cfdb05f56a327b73f152b01038bc1/core-1.2.0-alpha04/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Flutter/testsylo/build/flutter_uploader/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/Users/lenovo/.gradle/caches/transforms-2/files-2.1/fc2cfdb05f56a327b73f152b01038bc1/core-1.2.0-alpha04/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Flutter/testsylo/build/flutter_uploader/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/Users/lenovo/.gradle/caches/transforms-2/files-2.1/fc2cfdb05f56a327b73f152b01038bc1/core-1.2.0-alpha04/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Flutter/testsylo/build/flutter_uploader/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/lenovo/.gradle/caches/transforms-2/files-2.1/fc2cfdb05f56a327b73f152b01038bc1/core-1.2.0-alpha04/res/drawable/notification_tile_bg.xml"
+    }
+]

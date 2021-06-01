@@ -1,0 +1,660 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sylo.android"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:9:5-67
+14-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:9:22-64
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:10:5-78
+15-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:10:22-76
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:11:5-79
+16-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:11:22-76
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:12:5-80
+17-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:12:22-77
+18    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+18-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:13:5-81
+18-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:13:22-78
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:14:5-81
+19-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:14:22-78
+20    <uses-permission android:name="android.permission.VIBRATE" />
+20-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:16:5-65
+20-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:16:22-63
+21    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+21-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:17:5-73
+21-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:17:22-71
+22    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+22-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:18:5-79
+22-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:18:22-77
+23    <uses-permission android:name="com.android.vending.BILLING" />
+23-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:19:5-66
+23-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:19:22-64
+24
+25    <queries>
+25-->[:file_picker] /Volumes/Data/Flutter/testsylo/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-15:15
+26        <intent>
+26-->[:file_picker] /Volumes/Data/Flutter/testsylo/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-14:18
+27            <action android:name="android.intent.action.GET_CONTENT" />
+27-->[:file_picker] /Volumes/Data/Flutter/testsylo/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-72
+27-->[:file_picker] /Volumes/Data/Flutter/testsylo/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:21-69
+28
+29            <data android:mimeType="*/*" />
+29-->[:file_picker] /Volumes/Data/Flutter/testsylo/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-44
+29-->[:file_picker] /Volumes/Data/Flutter/testsylo/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:19-41
+30        </intent>
+31    </queries>
+32
+33    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+33-->[:flutter_local_notifications] /Volumes/Data/Flutter/testsylo/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-81
+33-->[:flutter_local_notifications] /Volumes/Data/Flutter/testsylo/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-78
+34    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+34-->[:flutter_local_notifications] /Volumes/Data/Flutter/testsylo/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-81
+34-->[:flutter_local_notifications] /Volumes/Data/Flutter/testsylo/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-78
+35    <uses-permission android:name="android.permission.WAKE_LOCK" />
+35-->[:firebase_messaging] /Volumes/Data/Flutter/testsylo/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-68
+35-->[:firebase_messaging] /Volumes/Data/Flutter/testsylo/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-65
+36    <uses-permission android:name="android.permission.CAMERA" />
+36-->[:camera] /Volumes/Data/Flutter/testsylo/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-65
+36-->[:camera] /Volumes/Data/Flutter/testsylo/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-62
+37    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+37-->[:camera] /Volumes/Data/Flutter/testsylo/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-71
+37-->[:camera] /Volumes/Data/Flutter/testsylo/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-68
+38    <uses-permission android:name="android.permission.USE_BIOMETRIC" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+38-->[androidx.biometric:biometric:1.1.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/6fcbdcc8529dd0ad18ac2dac77baaac8/biometric-1.1.0/AndroidManifest.xml:24:5-72
+38-->[androidx.biometric:biometric:1.1.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/6fcbdcc8529dd0ad18ac2dac77baaac8/biometric-1.1.0/AndroidManifest.xml:24:22-69
+39    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+39-->[com.google.firebase:firebase-iid:21.0.1] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/1bc18b08d5363c19a10fa2995a11703a/jetified-firebase-iid-21.0.1/AndroidManifest.xml:26:5-82
+39-->[com.google.firebase:firebase-iid:21.0.1] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/1bc18b08d5363c19a10fa2995a11703a/jetified-firebase-iid-21.0.1/AndroidManifest.xml:26:22-79
+40    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+40-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/15c882ab1f3343f89bcc7310d1beefe8/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:26:5-110
+40-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/15c882ab1f3343f89bcc7310d1beefe8/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:26:22-107
+41
+42    <application
+42-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:21:5-68:19
+43        android:name="io.flutter.app.FlutterApplication"
+43-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:22:9-57
+44        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+44-->[androidx.core:core:1.6.0-beta01] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/6586a9efbf44b746bea1d26716c066a3/core-1.6.0-beta01/AndroidManifest.xml:24:18-86
+45        android:debuggable="true"
+46        android:extractNativeLibs="false"
+47        android:icon="@mipmap/ic_launcher"
+47-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:27:9-43
+48        android:label="@string/app_name"
+48-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:23:9-41
+49        android:networkSecurityConfig="@xml/network_security_config"
+49-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:26:9-69
+50        android:requestLegacyExternalStorage="true"
+50-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:25:9-52
+51        android:usesCleartextTraffic="true" >
+51-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:24:9-44
+52        <meta-data
+52-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:30:9-31:70
+53            android:name="com.google.android.geo.API_KEY"
+53-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:30:20-65
+54            android:value="AIzaSyCu1ng402lI6np1gl9qlzSIVYt598KS17E" />
+54-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:31:13-68
+55
+56        <uses-library
+56-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:33:9-35:40
+57            android:name="org.apache.http.legacy"
+57-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:34:13-50
+58            android:required="false" />
+58-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:35:13-37
+59
+60        <activity
+60-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:37:9-52:20
+61            android:name="com.app.renta.MainActivity"
+61-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:38:13-41
+62            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+62-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:41:13-163
+63            android:hardwareAccelerated="true"
+63-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:42:13-47
+64            android:launchMode="singleTop"
+64-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:39:13-43
+65            android:theme="@style/LaunchTheme"
+65-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:40:13-47
+66            android:windowSoftInputMode="adjustResize" >
+66-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:43:13-55
+67            <intent-filter>
+67-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:44:13-47:29
+68                <action android:name="android.intent.action.MAIN" />
+68-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:45:17-68
+68-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:45:25-66
+69
+70                <category android:name="android.intent.category.LAUNCHER" />
+70-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:46:17-76
+70-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:46:27-74
+71            </intent-filter>
+72            <intent-filter>
+72-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:48:13-51:29
+73                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+73-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:49:17-69
+73-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:49:25-66
+74
+75                <category android:name="android.intent.category.DEFAULT" />
+75-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:50:17-76
+75-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:50:27-73
+76            </intent-filter>
+77        </activity>
+78        <activity
+78-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:53:9-56:71
+79            android:name="com.yalantis.ucrop.UCropActivity"
+79-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:54:13-60
+80            android:screenOrientation="portrait"
+80-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:55:13-49
+81            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+81-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:56:13-69
+82        <!--
+83             Don't delete the meta-data below.
+84             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+85        -->
+86        <meta-data
+86-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:59:9-61:33
+87            android:name="flutterEmbedding"
+87-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:60:13-44
+88            android:value="2" />
+88-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:61:13-30
+89        <meta-data
+89-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:64:9-66:36
+90            android:name="firebase_crashlytics_collection_enabled"
+90-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:65:13-67
+91            android:value="true" />
+91-->/Volumes/Data/Flutter/testsylo/android/app/src/main/AndroidManifest.xml:66:13-33
+92
+93        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver" />
+93-->[:flutter_local_notifications] /Volumes/Data/Flutter/testsylo/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-106
+93-->[:flutter_local_notifications] /Volumes/Data/Flutter/testsylo/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:12:19-103
+94        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver" >
+94-->[:flutter_local_notifications] /Volumes/Data/Flutter/testsylo/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-20:20
+94-->[:flutter_local_notifications] /Volumes/Data/Flutter/testsylo/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:13:19-107
+95            <intent-filter>
+95-->[:flutter_local_notifications] /Volumes/Data/Flutter/testsylo/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-19:29
+96                <action android:name="android.intent.action.BOOT_COMPLETED" />
+96-->[:flutter_local_notifications] /Volumes/Data/Flutter/testsylo/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-79
+96-->[:flutter_local_notifications] /Volumes/Data/Flutter/testsylo/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:15:25-76
+97                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+97-->[:flutter_local_notifications] /Volumes/Data/Flutter/testsylo/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-84
+97-->[:flutter_local_notifications] /Volumes/Data/Flutter/testsylo/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:16:25-81
+98                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+98-->[:flutter_local_notifications] /Volumes/Data/Flutter/testsylo/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-82
+98-->[:flutter_local_notifications] /Volumes/Data/Flutter/testsylo/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:17:25-79
+99                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+99-->[:flutter_local_notifications] /Volumes/Data/Flutter/testsylo/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-82
+99-->[:flutter_local_notifications] /Volumes/Data/Flutter/testsylo/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:18:25-79
+100            </intent-filter>
+101        </receiver>
+102
+103        <service
+103-->[:firebase_crashlytics] /Volumes/Data/Flutter/testsylo/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+104            android:name="com.google.firebase.components.ComponentDiscoveryService"
+104-->[:firebase_crashlytics] /Volumes/Data/Flutter/testsylo/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+105            android:directBootAware="true"
+105-->[com.google.firebase:firebase-common:19.5.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/9bb1f06a5aa71c5df345959c7fc4335a/jetified-firebase-common-19.5.0/AndroidManifest.xml:35:13-43
+106            android:exported="false" >
+106-->[com.google.firebase:firebase-crashlytics:17.4.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/e78e67e2a0df18eb98959d24692b26f4/jetified-firebase-crashlytics-17.4.0/AndroidManifest.xml:17:13-37
+107            <meta-data
+107-->[:firebase_crashlytics] /Volumes/Data/Flutter/testsylo/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+108                android:name="com.google.firebase.components:io.flutter.plugins.firebase.crashlytics.FlutterFirebaseAppRegistrar"
+108-->[:firebase_crashlytics] /Volumes/Data/Flutter/testsylo/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-130
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[:firebase_crashlytics] /Volumes/Data/Flutter/testsylo/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+110            <meta-data
+110-->[:firebase_messaging] /Volumes/Data/Flutter/testsylo/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:34:13-36:85
+111                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+111-->[:firebase_messaging] /Volumes/Data/Flutter/testsylo/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:35:17-128
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[:firebase_messaging] /Volumes/Data/Flutter/testsylo/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:36:17-82
+113            <meta-data
+113-->[:firebase_analytics] /Volumes/Data/Flutter/testsylo/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:85
+114                android:name="com.google.firebase.components:io.flutter.plugins.firebaseanalytics.FlutterFirebaseAppRegistrar"
+114-->[:firebase_analytics] /Volumes/Data/Flutter/testsylo/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-127
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[:firebase_analytics] /Volumes/Data/Flutter/testsylo/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-82
+116            <meta-data
+116-->[:firebase_core] /Volumes/Data/Flutter/testsylo/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+117                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+117-->[:firebase_core] /Volumes/Data/Flutter/testsylo/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[:firebase_core] /Volumes/Data/Flutter/testsylo/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+119            <meta-data
+119-->[com.google.firebase:firebase-crashlytics:17.4.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/e78e67e2a0df18eb98959d24692b26f4/jetified-firebase-crashlytics-17.4.0/AndroidManifest.xml:18:13-20:85
+120                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+120-->[com.google.firebase:firebase-crashlytics:17.4.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/e78e67e2a0df18eb98959d24692b26f4/jetified-firebase-crashlytics-17.4.0/AndroidManifest.xml:19:17-115
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[com.google.firebase:firebase-crashlytics:17.4.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/e78e67e2a0df18eb98959d24692b26f4/jetified-firebase-crashlytics-17.4.0/AndroidManifest.xml:20:17-82
+122            <meta-data
+122-->[com.google.firebase:firebase-messaging:21.0.1] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/7e0d24814d0dec6eb9037cb499aa5ab4/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:39:13-41:85
+123                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+123-->[com.google.firebase:firebase-messaging:21.0.1] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/7e0d24814d0dec6eb9037cb499aa5ab4/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:40:17-119
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[com.google.firebase:firebase-messaging:21.0.1] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/7e0d24814d0dec6eb9037cb499aa5ab4/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:41:17-82
+125            <meta-data
+125-->[com.google.android.gms:play-services-measurement-api:18.0.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/7ea4afb4070442404c2169848c4c4394/jetified-play-services-measurement-api-18.0.0/AndroidManifest.xml:30:13-32:85
+126                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+126-->[com.google.android.gms:play-services-measurement-api:18.0.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/7ea4afb4070442404c2169848c4c4394/jetified-play-services-measurement-api-18.0.0/AndroidManifest.xml:31:17-139
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[com.google.android.gms:play-services-measurement-api:18.0.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/7ea4afb4070442404c2169848c4c4394/jetified-play-services-measurement-api-18.0.0/AndroidManifest.xml:32:17-82
+128            <meta-data
+128-->[com.google.firebase:firebase-iid:21.0.1] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/1bc18b08d5363c19a10fa2995a11703a/jetified-firebase-iid-21.0.1/AndroidManifest.xml:32:13-34:85
+129                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+129-->[com.google.firebase:firebase-iid:21.0.1] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/1bc18b08d5363c19a10fa2995a11703a/jetified-firebase-iid-21.0.1/AndroidManifest.xml:33:17-96
+130                android:value="com.google.firebase.components.ComponentRegistrar" />
+130-->[com.google.firebase:firebase-iid:21.0.1] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/1bc18b08d5363c19a10fa2995a11703a/jetified-firebase-iid-21.0.1/AndroidManifest.xml:34:17-82
+131            <meta-data
+131-->[com.google.firebase:firebase-installations:16.3.5] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/950c8a62bbc550f40ef212e08e79c489/jetified-firebase-installations-16.3.5/AndroidManifest.xml:18:13-20:85
+132                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+132-->[com.google.firebase:firebase-installations:16.3.5] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/950c8a62bbc550f40ef212e08e79c489/jetified-firebase-installations-16.3.5/AndroidManifest.xml:19:17-127
+133                android:value="com.google.firebase.components.ComponentRegistrar" />
+133-->[com.google.firebase:firebase-installations:16.3.5] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/950c8a62bbc550f40ef212e08e79c489/jetified-firebase-installations-16.3.5/AndroidManifest.xml:20:17-82
+134            <meta-data
+134-->[com.google.firebase:firebase-datatransport:17.0.10] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/cfce93c5150d4563cfd12fa659438b4a/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:28:13-30:85
+135                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+135-->[com.google.firebase:firebase-datatransport:17.0.10] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/cfce93c5150d4563cfd12fa659438b4a/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:29:17-115
+136                android:value="com.google.firebase.components.ComponentRegistrar" />
+136-->[com.google.firebase:firebase-datatransport:17.0.10] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/cfce93c5150d4563cfd12fa659438b4a/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:30:17-82
+137            <!--
+138                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+139                clients to use it as well, by defining this registrar in their own core/common library.
+140            -->
+141            <meta-data
+141-->[com.google.firebase:firebase-common:19.5.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/9bb1f06a5aa71c5df345959c7fc4335a/jetified-firebase-common-19.5.0/AndroidManifest.xml:43:13-45:85
+142                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+142-->[com.google.firebase:firebase-common:19.5.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/9bb1f06a5aa71c5df345959c7fc4335a/jetified-firebase-common-19.5.0/AndroidManifest.xml:44:17-121
+143                android:value="com.google.firebase.components.ComponentRegistrar" />
+143-->[com.google.firebase:firebase-common:19.5.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/9bb1f06a5aa71c5df345959c7fc4335a/jetified-firebase-common-19.5.0/AndroidManifest.xml:45:17-82
+144        </service>
+145        <service
+145-->[:firebase_messaging] /Volumes/Data/Flutter/testsylo/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-15:72
+146            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+146-->[:firebase_messaging] /Volumes/Data/Flutter/testsylo/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-107
+147            android:exported="false"
+147-->[:firebase_messaging] /Volumes/Data/Flutter/testsylo/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+148            android:permission="android.permission.BIND_JOB_SERVICE" />
+148-->[:firebase_messaging] /Volumes/Data/Flutter/testsylo/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-69
+149        <service
+149-->[:firebase_messaging] /Volumes/Data/Flutter/testsylo/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-22:19
+150            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+150-->[:firebase_messaging] /Volumes/Data/Flutter/testsylo/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-97
+151            android:exported="false" >
+151-->[:firebase_messaging] /Volumes/Data/Flutter/testsylo/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-37
+152            <intent-filter>
+152-->[:firebase_messaging] /Volumes/Data/Flutter/testsylo/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-21:29
+153                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+153-->[:firebase_messaging] /Volumes/Data/Flutter/testsylo/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-78
+153-->[:firebase_messaging] /Volumes/Data/Flutter/testsylo/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:20:25-75
+154            </intent-filter>
+155        </service>
+156
+157        <receiver
+157-->[:firebase_messaging] /Volumes/Data/Flutter/testsylo/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:24:9-31:20
+158            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+158-->[:firebase_messaging] /Volumes/Data/Flutter/testsylo/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:25:13-98
+159            android:exported="true"
+159-->[:firebase_messaging] /Volumes/Data/Flutter/testsylo/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-36
+160            android:permission="com.google.android.c2dm.permission.SEND" >
+160-->[:firebase_messaging] /Volumes/Data/Flutter/testsylo/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-73
+161            <intent-filter>
+161-->[:firebase_messaging] /Volumes/Data/Flutter/testsylo/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-30:29
+162                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+162-->[:firebase_messaging] /Volumes/Data/Flutter/testsylo/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:29:17-81
+162-->[:firebase_messaging] /Volumes/Data/Flutter/testsylo/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:29:25-78
+163            </intent-filter>
+164        </receiver>
+165
+166        <provider
+166-->[:firebase_messaging] /Volumes/Data/Flutter/testsylo/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:39:9-43:38
+167            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+167-->[:firebase_messaging] /Volumes/Data/Flutter/testsylo/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:40:13-102
+168            android:authorities="com.sylo.android.flutterfirebasemessaginginitprovider"
+168-->[:firebase_messaging] /Volumes/Data/Flutter/testsylo/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-88
+169            android:exported="false"
+169-->[:firebase_messaging] /Volumes/Data/Flutter/testsylo/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:42:13-37
+170            android:initOrder="99" />
+170-->[:firebase_messaging] /Volumes/Data/Flutter/testsylo/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:43:13-35
+171
+172        <activity
+172-->[:url_launcher] /Volumes/Data/Flutter/testsylo/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+173            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+173-->[:url_launcher] /Volumes/Data/Flutter/testsylo/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+174            android:exported="false"
+174-->[:url_launcher] /Volumes/Data/Flutter/testsylo/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+175            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+175-->[:url_launcher] /Volumes/Data/Flutter/testsylo/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+176        <!--
+177             FirebaseMessagingService performs security checks at runtime,
+178             but set to not exported to explicitly avoid allowing another app to call it.
+179        -->
+180        <service
+180-->[com.google.firebase:firebase-messaging:21.0.1] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/7e0d24814d0dec6eb9037cb499aa5ab4/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:28:9-35:19
+181            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+181-->[com.google.firebase:firebase-messaging:21.0.1] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/7e0d24814d0dec6eb9037cb499aa5ab4/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:29:13-82
+182            android:directBootAware="true"
+182-->[com.google.firebase:firebase-messaging:21.0.1] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/7e0d24814d0dec6eb9037cb499aa5ab4/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:30:13-43
+183            android:exported="false" >
+183-->[com.google.firebase:firebase-messaging:21.0.1] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/7e0d24814d0dec6eb9037cb499aa5ab4/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:31:13-37
+184            <intent-filter android:priority="-500" >
+184-->[:firebase_messaging] /Volumes/Data/Flutter/testsylo/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-21:29
+185                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+185-->[:firebase_messaging] /Volumes/Data/Flutter/testsylo/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-78
+185-->[:firebase_messaging] /Volumes/Data/Flutter/testsylo/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:20:25-75
+186            </intent-filter>
+187        </service>
+188
+189        <receiver
+189-->[com.google.firebase:firebase-iid:21.0.1] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/1bc18b08d5363c19a10fa2995a11703a/jetified-firebase-iid-21.0.1/AndroidManifest.xml:37:9-44:20
+190            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+190-->[com.google.firebase:firebase-iid:21.0.1] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/1bc18b08d5363c19a10fa2995a11703a/jetified-firebase-iid-21.0.1/AndroidManifest.xml:38:13-78
+191            android:exported="true"
+191-->[com.google.firebase:firebase-iid:21.0.1] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/1bc18b08d5363c19a10fa2995a11703a/jetified-firebase-iid-21.0.1/AndroidManifest.xml:39:13-36
+192            android:permission="com.google.android.c2dm.permission.SEND" >
+192-->[com.google.firebase:firebase-iid:21.0.1] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/1bc18b08d5363c19a10fa2995a11703a/jetified-firebase-iid-21.0.1/AndroidManifest.xml:40:13-73
+193            <intent-filter>
+193-->[:firebase_messaging] /Volumes/Data/Flutter/testsylo/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-30:29
+194                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+194-->[:firebase_messaging] /Volumes/Data/Flutter/testsylo/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:29:17-81
+194-->[:firebase_messaging] /Volumes/Data/Flutter/testsylo/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:29:25-78
+195            </intent-filter>
+196        </receiver>
+197
+198        <provider
+198-->[com.google.firebase:firebase-common:19.5.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/9bb1f06a5aa71c5df345959c7fc4335a/jetified-firebase-common-19.5.0/AndroidManifest.xml:26:9-31:39
+199            android:name="com.google.firebase.provider.FirebaseInitProvider"
+199-->[com.google.firebase:firebase-common:19.5.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/9bb1f06a5aa71c5df345959c7fc4335a/jetified-firebase-common-19.5.0/AndroidManifest.xml:27:13-77
+200            android:authorities="com.sylo.android.firebaseinitprovider"
+200-->[com.google.firebase:firebase-common:19.5.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/9bb1f06a5aa71c5df345959c7fc4335a/jetified-firebase-common-19.5.0/AndroidManifest.xml:28:13-72
+201            android:directBootAware="true"
+201-->[com.google.firebase:firebase-common:19.5.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/9bb1f06a5aa71c5df345959c7fc4335a/jetified-firebase-common-19.5.0/AndroidManifest.xml:29:13-43
+202            android:exported="false"
+202-->[com.google.firebase:firebase-common:19.5.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/9bb1f06a5aa71c5df345959c7fc4335a/jetified-firebase-common-19.5.0/AndroidManifest.xml:30:13-37
+203            android:initOrder="100" />
+203-->[com.google.firebase:firebase-common:19.5.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/9bb1f06a5aa71c5df345959c7fc4335a/jetified-firebase-common-19.5.0/AndroidManifest.xml:31:13-36
+204
+205        <activity
+205-->[com.google.android.gms:play-services-base:17.0.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/93e2518592b2afbe0ed1e76fe4c92dff/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+206            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+206-->[com.google.android.gms:play-services-base:17.0.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/93e2518592b2afbe0ed1e76fe4c92dff/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+207            android:exported="false"
+207-->[com.google.android.gms:play-services-base:17.0.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/93e2518592b2afbe0ed1e76fe4c92dff/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+208            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+208-->[com.google.android.gms:play-services-base:17.0.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/93e2518592b2afbe0ed1e76fe4c92dff/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+209
+210        <receiver
+210-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/15c882ab1f3343f89bcc7310d1beefe8/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:29:9-33:20
+211            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+211-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/15c882ab1f3343f89bcc7310d1beefe8/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:30:13-85
+212            android:enabled="true"
+212-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/15c882ab1f3343f89bcc7310d1beefe8/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:31:13-35
+213            android:exported="false" >
+213-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/15c882ab1f3343f89bcc7310d1beefe8/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:32:13-37
+214        </receiver>
+215
+216        <service
+216-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/15c882ab1f3343f89bcc7310d1beefe8/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:35:9-38:40
+217            android:name="com.google.android.gms.measurement.AppMeasurementService"
+217-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/15c882ab1f3343f89bcc7310d1beefe8/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:36:13-84
+218            android:enabled="true"
+218-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/15c882ab1f3343f89bcc7310d1beefe8/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:37:13-35
+219            android:exported="false" />
+219-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/15c882ab1f3343f89bcc7310d1beefe8/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:38:13-37
+220        <service
+220-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/15c882ab1f3343f89bcc7310d1beefe8/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:39:9-43:72
+221            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+221-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/15c882ab1f3343f89bcc7310d1beefe8/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:40:13-87
+222            android:enabled="true"
+222-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/15c882ab1f3343f89bcc7310d1beefe8/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:41:13-35
+223            android:exported="false"
+223-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/15c882ab1f3343f89bcc7310d1beefe8/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:42:13-37
+224            android:permission="android.permission.BIND_JOB_SERVICE" />
+224-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/15c882ab1f3343f89bcc7310d1beefe8/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:43:13-69
+225
+226        <meta-data
+226-->[com.google.android.gms:play-services-basement:17.0.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/bb09641e886cceb40b033ceb5490f951/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+227            android:name="com.google.android.gms.version"
+227-->[com.google.android.gms:play-services-basement:17.0.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/bb09641e886cceb40b033ceb5490f951/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+228            android:value="@integer/google_play_services_version" />
+228-->[com.google.android.gms:play-services-basement:17.0.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/bb09641e886cceb40b033ceb5490f951/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+229
+230        <service
+230-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/d0f77a7ba611f8a83b98ba8a7be6bd84/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+231            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+231-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/d0f77a7ba611f8a83b98ba8a7be6bd84/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+232            android:exported="false" >
+232-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/d0f77a7ba611f8a83b98ba8a7be6bd84/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+233            <meta-data
+233-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/d0f77a7ba611f8a83b98ba8a7be6bd84/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+234                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+234-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/d0f77a7ba611f8a83b98ba8a7be6bd84/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+235                android:value="cct" />
+235-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/d0f77a7ba611f8a83b98ba8a7be6bd84/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+236        </service>
+237        <service
+237-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/838355af094bedd82f4435f111016a08/jetified-transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
+238            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+238-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/838355af094bedd82f4435f111016a08/jetified-transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
+239            android:exported="false"
+239-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/838355af094bedd82f4435f111016a08/jetified-transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
+240            android:permission="android.permission.BIND_JOB_SERVICE" >
+240-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/838355af094bedd82f4435f111016a08/jetified-transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
+241        </service>
+242
+243        <receiver
+243-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/838355af094bedd82f4435f111016a08/jetified-transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
+244            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+244-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/838355af094bedd82f4435f111016a08/jetified-transport-runtime-2.2.6/AndroidManifest.xml:33:13-132
+245            android:exported="false" />
+245-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/838355af094bedd82f4435f111016a08/jetified-transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
+246
+247        <provider
+247-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:30:9-36:35
+248            android:name="androidx.work.impl.WorkManagerInitializer"
+248-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:31:13-69
+249            android:authorities="com.sylo.android.workmanager-init"
+249-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:32:13-68
+250            android:directBootAware="false"
+250-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:33:13-44
+251            android:exported="false"
+251-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:34:13-37
+252            android:multiprocess="true" />
+252-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:35:13-40
+253
+254        <service
+254-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:38:9-43:35
+255            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+255-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:39:13-88
+256            android:directBootAware="false"
+256-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:40:13-44
+257            android:enabled="@bool/enable_system_alarm_service_default"
+257-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:41:13-72
+258            android:exported="false" />
+258-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:42:13-37
+259        <service
+259-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:44:9-50:35
+260            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+260-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:45:13-84
+261            android:directBootAware="false"
+261-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:46:13-44
+262            android:enabled="@bool/enable_system_job_service_default"
+262-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:47:13-70
+263            android:exported="true"
+263-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:48:13-36
+264            android:permission="android.permission.BIND_JOB_SERVICE" />
+264-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:49:13-69
+265
+266        <receiver
+266-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:52:9-57:35
+267            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+267-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:53:13-88
+268            android:directBootAware="false"
+268-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:54:13-44
+269            android:enabled="true"
+269-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:55:13-35
+270            android:exported="false" />
+270-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:56:13-37
+271        <receiver
+271-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:58:9-68:20
+272            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+272-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:59:13-106
+273            android:directBootAware="false"
+273-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:60:13-44
+274            android:enabled="false"
+274-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:61:13-36
+275            android:exported="false" >
+275-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:62:13-37
+276            <intent-filter>
+276-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:64:13-67:29
+277                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+277-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:65:17-87
+277-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:65:25-84
+278                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+278-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:66:17-90
+278-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:66:25-87
+279            </intent-filter>
+280        </receiver>
+281        <receiver
+281-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:69:9-79:20
+282            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+282-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:70:13-104
+283            android:directBootAware="false"
+283-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:71:13-44
+284            android:enabled="false"
+284-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:72:13-36
+285            android:exported="false" >
+285-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:73:13-37
+286            <intent-filter>
+286-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:75:13-78:29
+287                <action android:name="android.intent.action.BATTERY_OKAY" />
+287-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:76:17-77
+287-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:76:25-74
+288                <action android:name="android.intent.action.BATTERY_LOW" />
+288-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:77:17-76
+288-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:77:25-73
+289            </intent-filter>
+290        </receiver>
+291        <receiver
+291-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:80:9-90:20
+292            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+292-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:81:13-104
+293            android:directBootAware="false"
+293-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:82:13-44
+294            android:enabled="false"
+294-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:83:13-36
+295            android:exported="false" >
+295-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:84:13-37
+296            <intent-filter>
+296-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:86:13-89:29
+297                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+297-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:87:17-83
+297-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:87:25-80
+298                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+298-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:88:17-82
+298-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:88:25-79
+299            </intent-filter>
+300        </receiver>
+301        <receiver
+301-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:91:9-100:20
+302            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+302-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:92:13-103
+303            android:directBootAware="false"
+303-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:93:13-44
+304            android:enabled="false"
+304-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:94:13-36
+305            android:exported="false" >
+305-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:95:13-37
+306            <intent-filter>
+306-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:97:13-99:29
+307                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+307-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:98:17-79
+307-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:98:25-76
+308            </intent-filter>
+309        </receiver>
+310        <receiver
+310-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:101:9-112:20
+311            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+311-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:102:13-88
+312            android:directBootAware="false"
+312-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:103:13-44
+313            android:enabled="false"
+313-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:104:13-36
+314            android:exported="false" >
+314-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:105:13-37
+315            <intent-filter>
+315-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:107:13-111:29
+316                <action android:name="android.intent.action.BOOT_COMPLETED" />
+316-->[:flutter_local_notifications] /Volumes/Data/Flutter/testsylo/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-79
+316-->[:flutter_local_notifications] /Volumes/Data/Flutter/testsylo/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:15:25-76
+317                <action android:name="android.intent.action.TIME_SET" />
+317-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:109:17-73
+317-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:109:25-70
+318                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+318-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:110:17-81
+318-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:110:25-78
+319            </intent-filter>
+320        </receiver>
+321        <receiver
+321-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:113:9-122:20
+322            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+322-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:114:13-99
+323            android:directBootAware="false"
+323-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:115:13-44
+324            android:enabled="@bool/enable_system_alarm_service_default"
+324-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:116:13-72
+325            android:exported="false" >
+325-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:117:13-37
+326            <intent-filter>
+326-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:119:13-121:29
+327                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+327-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:120:17-98
+327-->[androidx.work:work-runtime:2.2.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/fcc0184369c845ab2a20ab2f9782ada6/work-runtime-2.2.0/AndroidManifest.xml:120:25-95
+328            </intent-filter>
+329        </receiver>
+330
+331        <service
+331-->[androidx.room:room-runtime:2.1.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/76ec5d7758f06e58248b3ee400e12d87/room-runtime-2.1.0/AndroidManifest.xml:25:9-27:40
+332            android:name="androidx.room.MultiInstanceInvalidationService"
+332-->[androidx.room:room-runtime:2.1.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/76ec5d7758f06e58248b3ee400e12d87/room-runtime-2.1.0/AndroidManifest.xml:26:13-74
+333            android:exported="false" />
+333-->[androidx.room:room-runtime:2.1.0] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/76ec5d7758f06e58248b3ee400e12d87/room-runtime-2.1.0/AndroidManifest.xml:27:13-37
+334
+335        <provider
+335-->[androidx.lifecycle:lifecycle-process:2.3.0-rc01] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/74af8f53fdff425adc923ad049f53cc9/jetified-lifecycle-process-2.3.0-rc01/AndroidManifest.xml:25:9-29:43
+336            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+336-->[androidx.lifecycle:lifecycle-process:2.3.0-rc01] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/74af8f53fdff425adc923ad049f53cc9/jetified-lifecycle-process-2.3.0-rc01/AndroidManifest.xml:26:13-79
+337            android:authorities="com.sylo.android.lifecycle-process"
+337-->[androidx.lifecycle:lifecycle-process:2.3.0-rc01] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/74af8f53fdff425adc923ad049f53cc9/jetified-lifecycle-process-2.3.0-rc01/AndroidManifest.xml:27:13-69
+338            android:exported="false"
+338-->[androidx.lifecycle:lifecycle-process:2.3.0-rc01] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/74af8f53fdff425adc923ad049f53cc9/jetified-lifecycle-process-2.3.0-rc01/AndroidManifest.xml:28:13-37
+339            android:multiprocess="true" />
+339-->[androidx.lifecycle:lifecycle-process:2.3.0-rc01] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/74af8f53fdff425adc923ad049f53cc9/jetified-lifecycle-process-2.3.0-rc01/AndroidManifest.xml:29:13-40
+340
+341        <meta-data
+341-->[com.android.billingclient:billing:3.0.2] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/b8a8d1402c392d43a0bca2578ff239e4/jetified-billing-3.0.2/AndroidManifest.xml:13:9-15:37
+342            android:name="com.google.android.play.billingclient.version"
+342-->[com.android.billingclient:billing:3.0.2] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/b8a8d1402c392d43a0bca2578ff239e4/jetified-billing-3.0.2/AndroidManifest.xml:14:13-73
+343            android:value="3.0.2" />
+343-->[com.android.billingclient:billing:3.0.2] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/b8a8d1402c392d43a0bca2578ff239e4/jetified-billing-3.0.2/AndroidManifest.xml:15:13-34
+344
+345        <activity
+345-->[com.android.billingclient:billing:3.0.2] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/b8a8d1402c392d43a0bca2578ff239e4/jetified-billing-3.0.2/AndroidManifest.xml:17:9-21:75
+346            android:name="com.android.billingclient.api.ProxyBillingActivity"
+346-->[com.android.billingclient:billing:3.0.2] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/b8a8d1402c392d43a0bca2578ff239e4/jetified-billing-3.0.2/AndroidManifest.xml:18:13-78
+347            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+347-->[com.android.billingclient:billing:3.0.2] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/b8a8d1402c392d43a0bca2578ff239e4/jetified-billing-3.0.2/AndroidManifest.xml:19:13-96
+348            android:exported="false"
+348-->[com.android.billingclient:billing:3.0.2] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/b8a8d1402c392d43a0bca2578ff239e4/jetified-billing-3.0.2/AndroidManifest.xml:20:13-37
+349            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+349-->[com.android.billingclient:billing:3.0.2] /Users/lenovo/.gradle/caches/transforms-2/files-2.1/b8a8d1402c392d43a0bca2578ff239e4/jetified-billing-3.0.2/AndroidManifest.xml:21:13-72
+350    </application>
+351
+352</manifest>

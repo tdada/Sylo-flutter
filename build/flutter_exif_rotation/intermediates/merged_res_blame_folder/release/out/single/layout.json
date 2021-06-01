@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Volumes/Data/Flutter/testsylo/build/flutter_exif_rotation/intermediates/res/merged/release/layout/notification_action.xml",
+        "source": "/Users/lenovo/.gradle/caches/transforms-2/files-2.1/87711e9a1c345f30136adc5e9efc3e5f/core-1.1.0/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Flutter/testsylo/build/flutter_exif_rotation/intermediates/res/merged/release/layout/notification_action_tombstone.xml",
+        "source": "/Users/lenovo/.gradle/caches/transforms-2/files-2.1/87711e9a1c345f30136adc5e9efc3e5f/core-1.1.0/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Flutter/testsylo/build/flutter_exif_rotation/intermediates/res/merged/release/layout/notification_template_icon_group.xml",
+        "source": "/Users/lenovo/.gradle/caches/transforms-2/files-2.1/87711e9a1c345f30136adc5e9efc3e5f/core-1.1.0/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Flutter/testsylo/build/flutter_exif_rotation/intermediates/res/merged/release/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/lenovo/.gradle/caches/transforms-2/files-2.1/87711e9a1c345f30136adc5e9efc3e5f/core-1.1.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Flutter/testsylo/build/flutter_exif_rotation/intermediates/res/merged/release/layout/custom_dialog.xml",
+        "source": "/Users/lenovo/.gradle/caches/transforms-2/files-2.1/87711e9a1c345f30136adc5e9efc3e5f/core-1.1.0/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Flutter/testsylo/build/flutter_exif_rotation/intermediates/res/merged/release/layout/notification_template_part_time.xml",
+        "source": "/Users/lenovo/.gradle/caches/transforms-2/files-2.1/87711e9a1c345f30136adc5e9efc3e5f/core-1.1.0/res/layout/notification_template_part_time.xml"
+    }
+]

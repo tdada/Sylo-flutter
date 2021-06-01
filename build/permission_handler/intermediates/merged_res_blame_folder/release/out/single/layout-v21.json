@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Volumes/Data/Flutter/testsylo/build/permission_handler/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/lenovo/.gradle/caches/transforms-2/files-2.1/87711e9a1c345f30136adc5e9efc3e5f/core-1.1.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Flutter/testsylo/build/permission_handler/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/Users/lenovo/.gradle/caches/transforms-2/files-2.1/87711e9a1c345f30136adc5e9efc3e5f/core-1.1.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Flutter/testsylo/build/permission_handler/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/lenovo/.gradle/caches/transforms-2/files-2.1/87711e9a1c345f30136adc5e9efc3e5f/core-1.1.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Flutter/testsylo/build/permission_handler/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/lenovo/.gradle/caches/transforms-2/files-2.1/87711e9a1c345f30136adc5e9efc3e5f/core-1.1.0/res/layout-v21/notification_template_custom_big.xml"
+    }
+]

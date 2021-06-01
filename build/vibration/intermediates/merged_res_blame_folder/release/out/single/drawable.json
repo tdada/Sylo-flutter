@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Volumes/Data/Flutter/testsylo/build/vibration/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/lenovo/.gradle/caches/transforms-2/files-2.1/87711e9a1c345f30136adc5e9efc3e5f/core-1.1.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Flutter/testsylo/build/vibration/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/Users/lenovo/.gradle/caches/transforms-2/files-2.1/87711e9a1c345f30136adc5e9efc3e5f/core-1.1.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Flutter/testsylo/build/vibration/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/Users/lenovo/.gradle/caches/transforms-2/files-2.1/87711e9a1c345f30136adc5e9efc3e5f/core-1.1.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Flutter/testsylo/build/vibration/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/Users/lenovo/.gradle/caches/transforms-2/files-2.1/87711e9a1c345f30136adc5e9efc3e5f/core-1.1.0/res/drawable/notification_bg.xml"
+    }
+]

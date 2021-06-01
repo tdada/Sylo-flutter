@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":purchases_flutter" external.linked.project.path="$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/purchases_flutter-3.2.1/android" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="com.revenuecat.purchases_flutter" external.system.module.version="3.2.1" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android-gradle" name="Android-Gradle">
+      <configuration>
+        <option name="GRADLE_PROJECT_PATH" value=":purchases_flutter" />
+        <option name="LAST_SUCCESSFUL_SYNC_AGP_VERSION" value="4.1.0" />
+        <option name="LAST_KNOWN_AGP_VERSION" value="4.1.0" />
+      </configuration>
+    </facet>
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="debug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileDebugSources" />
+        <afterSyncTasks>
+          <task>generateDebugSources</task>
+        </afterSyncTasks>
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/purchases_flutter-3.2.1/android/src/main/res;file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/purchases_flutter-3.2.1/android/src/debug/res;file://$MODULE_DIR$/../../../../build/purchases_flutter/generated/res/rs/debug;file://$MODULE_DIR$/../../../../build/purchases_flutter/generated/res/resValues/debug" />
+        <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/purchases_flutter-3.2.1/android/src/androidTest/res;file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/purchases_flutter-3.2.1/android/src/androidTestDebug/res;file://$MODULE_DIR$/../../../../build/purchases_flutter/generated/res/rs/androidTest/debug;file://$MODULE_DIR$/../../../../build/purchases_flutter/generated/res/resValues/androidTest/debug" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
+        <option name="PROJECT_TYPE" value="1" />
+      </configuration>
+    </facet>
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false">
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xallow-no-source-files" />
+        </compilerSettings>
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../../../build/purchases_flutter/tmp/kotlin-classes/debug" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a29c4c7589eff5ba3aa203145cb4fc87/jetified-flutter_embedding_debug-1.0.0-05e680e202af9a92461070cb2d9982acad46c83c.jar:/Users/lenovo/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common-java8/2.2.0/cd3478503da69b1a7e0319bd2d1389943db9b364/lifecycle-common-java8-2.2.0.jar:/Users/lenovo/.gradle/caches/transforms-2/files-2.1/43c0d12106ba23f78d462a727f2d39e7/jetified-purchases-hybrid-common-1.6.2-api.jar:/Users/lenovo/.gradle/caches/transforms-2/files-2.1/28226b4249c32abb70c33b673275e475/jetified-purchases-4.0.5-api.jar:/Users/lenovo/.gradle/caches/transforms-2/files-2.1/8fc6fa0736cd95f7280f85b0402d5ca3/jetified-purchases-core-feature-identity-4.0.5-api.jar:/Users/lenovo/.gradle/caches/transforms-2/files-2.1/6e86d3a4506f8a106545b98a66d7f709/jetified-purchases-core-feature-subscriber-attributes-4.0.5-api.jar:/Users/lenovo/.gradle/caches/transforms-2/files-2.1/829262d0405afacef3e07345857fbf45/appcompat-1.2.0-api.jar:/Users/lenovo/.gradle/caches/transforms-2/files-2.1/d34f1fe873a0935236c2609a90712bea/jetified-play-services-ads-identifier-17.0.0-api.jar:/Users/lenovo/.gradle/caches/transforms-2/files-2.1/46bd0c3bdc3013478292816f56efd7d1/jetified-play-services-basement-17.0.0-api.jar:/Users/lenovo/.gradle/caches/transforms-2/files-2.1/6324ce212efee478f5da8e39c62e9914/fragment-1.1.0-api.jar:/Users/lenovo/.gradle/caches/transforms-2/files-2.1/2cc47034320a6e57b3efd3049eff1861/jetified-activity-1.0.0-api.jar:/Users/lenovo/.gradle/caches/transforms-2/files-2.1/297e3f0ecd1c67b534a85a3d69bff0ef/jetified-lifecycle-process-2.3.0-rc01-api.jar:/Users/lenovo/.gradle/caches/transforms-2/files-2.1/98a1f0d6eed5414fdf35381e7ab66ae1/viewpager-1.0.0-api.jar:/Users/lenovo/.gradle/caches/transforms-2/files-2.1/d1466424b8c0ca9bef43c8acf6b0abf5/loader-1.0.0-api.jar:/Users/lenovo/.gradle/caches/transforms-2/files-2.1/861457f8fe316a3c826919b51068bbf6/drawerlayout-1.0.0-api.jar:/Users/lenovo/.gradle/caches/transforms-2/files-2.1/47168ba91840ae35b62eb28875eba542/customview-1.0.0-api.jar:/Users/lenovo/.gradle/caches/transforms-2/files-2.1/939860a25727ffc79fdf9000de3ba405/jetified-purchases-core-common-4.0.5-api.jar:/Users/lenovo/.gradle/caches/transforms-2/files-2.1/5963a9fecf2e620148b3b452e28d57dd/jetified-purchases-core-public-4.0.5-api.jar:/Users/lenovo/.gradle/caches/transforms-2/files-2.1/8a9557cf9ee8407b6579f37e2e99ac05/jetified-purchases-core-utils-4.0.5-api.jar:/Users/lenovo/.gradle/caches/transforms-2/files-2.1/94b1729e55acb389af99334a272d099c/jetified-core-ktx-1.3.1-api.jar:/Users/lenovo/.gradle/caches/transforms-2/files-2.1/2bf6e163f8f9eb9b25f9ef09c374a43e/jetified-appcompat-resources-1.2.0-api.jar:/Users/lenovo/.gradle/caches/transforms-2/files-2.1/dd1244613e82f7147930f7ae872a4fbd/vectordrawable-animated-1.1.0-api.jar:/Users/lenovo/.gradle/caches/transforms-2/files-2.1/41224e2f95799dd938d8d276dd478b47/vectordrawable-1.1.0-api.jar:/Users/lenovo/.gradle/caches/transforms-2/files-2.1/0974fdd29e41b1edd4a64eda834d529e/core-1.3.1-api.jar:/Users/lenovo/.gradle/caches/transforms-2/files-2.1/76c27a55fbc0f1ed429024406f74daa7/lifecycle-runtime-2.3.0-rc01-api.jar:/Users/lenovo/.gradle/caches/transforms-2/files-2.1/6cfd1a2934c69a1c833086788b894cf6/jetified-savedstate-1.0.0-api.jar:/Users/lenovo/.gradle/caches/transforms-2/files-2.1/b235184540a95ac7b1edad30481c7941/lifecycle-livedata-2.0.0-api.jar:/Users/lenovo/.gradle/caches/transforms-2/files-2.1/1de6528b46cf154ba715fa40f27d3378/lifecycle-livedata-core-2.0.0-api.jar:/Users/lenovo/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.3.1/fc466261d52f4433863642fb40d12441ae274a98/lifecycle-common-2.3.1.jar:/Users/lenovo/.gradle/caches/transforms-2/files-2.1/9b783a7cc8442f1d55d97bd787d69d9d/core-runtime-2.1.0-api.jar:/Users/lenovo/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar:/Users/lenovo/.gradle/caches/transforms-2/files-2.1/ce5ed9e6db87cbe4befa94da9c024927/versionedparcelable-1.1.0-api.jar:/Users/lenovo/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar:/Users/lenovo/.gradle/caches/transforms-2/files-2.1/a9ba1ce572c357a8eb64e25853abdb57/lifecycle-viewmodel-2.1.0-api.jar:/Users/lenovo/.gradle/caches/transforms-2/files-2.1/743e36f94739dfc4e91be9ca0d0c91c6/cursoradapter-1.0.0-api.jar:/Users/lenovo/.gradle/caches/transforms-2/files-2.1/46a31bd184004bcaddd4ded5b5563e9f/interpolator-1.0.0-api.jar:/Users/lenovo/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.1.0/e3a6fb2f40e3a3842e6b7472628ba4ce416ea4c8/annotation-1.1.0.jar:/Users/lenovo/.gradle/caches/transforms-2/files-2.1/e3b3c40ed654344a3e91d29f54505c0e/jetified-kotlin-stdlib-jdk7-1.4.10.jar:/Users/lenovo/.gradle/caches/transforms-2/files-2.1/d11bd1fb30a6da4bdffb22fffe2d0461/jetified-purchases-core-strings-4.0.5-api.jar:/Users/lenovo/.gradle/caches/transforms-2/files-2.1/2b22329216a2164e0af94a38119030bc/jetified-kotlin-android-extensions-runtime-1.4.10.jar:/Users/lenovo/.gradle/caches/transforms-2/files-2.1/b141fd0805d6627cff72d980ced8a415/jetified-kotlin-stdlib-1.4.10.jar:/Users/lenovo/.gradle/caches/transforms-2/files-2.1/174959e330d8baca32dd8a4248c609b6/jetified-kotlin-stdlib-common-1.4.10.jar:/Users/lenovo/.gradle/caches/transforms-2/files-2.1/5a8a24165e62814d4661a279c07df638/jetified-annotations-13.0.jar:/Users/lenovo/.gradle/caches/transforms-2/files-2.1/f021c4972c2096ec8f1f123e28811968/jetified-billing-3.0.2-api.jar:/Users/lenovo/Library/Android/sdk/platforms/android-30/android.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="purchases_flutter_debug" />
+          <option name="languageVersion" value="1.3" />
+          <option name="apiVersion" value="1.3" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array />
+          </option>
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
+    <output url="file://$MODULE_DIR$/../../../../build/purchases_flutter/intermediates/javac/debug/classes" />
+    <output-test url="file://$MODULE_DIR$/../../../../build/purchases_flutter/intermediates/javac/debugUnitTest/classes" />
+    <exclude-output />
+    <content url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/purchases_flutter-3.2.1">
+      <sourceFolder url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/purchases_flutter-3.2.1/android/src/main/java" isTestSource="false" />
+      <excludeFolder url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/purchases_flutter-3.2.1/.dart_tool" />
+      <excludeFolder url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/purchases_flutter-3.2.1/.pub" />
+      <excludeFolder url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/purchases_flutter-3.2.1/android/.gradle" />
+      <excludeFolder url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/purchases_flutter-3.2.1/build" />
+      <excludeFolder url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/purchases_flutter-3.2.1/revenuecat_examples/MagicWeather/.dart_tool" />
+      <excludeFolder url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/purchases_flutter-3.2.1/revenuecat_examples/MagicWeather/.pub" />
+      <excludeFolder url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/purchases_flutter-3.2.1/revenuecat_examples/MagicWeather/build" />
+      <excludeFolder url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/purchases_flutter-3.2.1/revenuecat_examples/purchase_tester/.dart_tool" />
+      <excludeFolder url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/purchases_flutter-3.2.1/revenuecat_examples/purchase_tester/.pub" />
+      <excludeFolder url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/purchases_flutter-3.2.1/revenuecat_examples/purchase_tester/build" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../build/purchases_flutter/generated/aidl_source_output_dir/debug/out" />
+    <content url="file://$MODULE_DIR$/../../../../build/purchases_flutter/generated/aidl_source_output_dir/debugAndroidTest/out" />
+    <content url="file://$MODULE_DIR$/../../../../build/purchases_flutter/generated/ap_generated_sources/debug/out">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../build/purchases_flutter/generated/ap_generated_sources/debug/out" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../build/purchases_flutter/generated/ap_generated_sources/debugAndroidTest/out" />
+    <content url="file://$MODULE_DIR$/../../../../build/purchases_flutter/generated/ap_generated_sources/debugUnitTest/out" />
+    <content url="file://$MODULE_DIR$/../../../../build/purchases_flutter/generated/renderscript_source_output_dir/debug/out" />
+    <content url="file://$MODULE_DIR$/../../../../build/purchases_flutter/generated/renderscript_source_output_dir/debugAndroidTest/out" />
+    <content url="file://$MODULE_DIR$/../../../../build/purchases_flutter/generated/res/resValues/androidTest/debug" />
+    <content url="file://$MODULE_DIR$/../../../../build/purchases_flutter/generated/res/resValues/debug">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../build/purchases_flutter/generated/res/resValues/debug" type="java-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../build/purchases_flutter/generated/res/rs/androidTest/debug" />
+    <content url="file://$MODULE_DIR$/../../../../build/purchases_flutter/generated/res/rs/debug" />
+    <content url="file://$MODULE_DIR$/../../../../build/purchases_flutter/generated/source/buildConfig/androidTest/debug" />
+    <content url="file://$MODULE_DIR$/../../../../build/purchases_flutter/generated/source/buildConfig/debug">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../build/purchases_flutter/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
+    </content>
+    <orderEntry type="jdk" jdkName="Android API 28 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: io.flutter:flutter_embedding_debug:1.0.0-05e680e202af9a92461070cb2d9982acad46c83c" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-common-java8:2.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-common:2.3.0-rc01" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.arch.core:core-common:2.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.collection:collection:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.annotation:annotation:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.4.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.4.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.revenuecat.purchases:purchases-hybrid-common:1.6.2@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.revenuecat.purchases:purchases:4.0.5@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.revenuecat.purchases:purchases-core-feature-identity:4.0.5@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.revenuecat.purchases:purchases-core-feature-subscriber-attributes:4.0.5@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.appcompat:appcompat:1.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-ads-identifier:17.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-basement:17.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.fragment:fragment:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.activity:activity:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-process:2.3.0-rc01@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.viewpager:viewpager:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.loader:loader:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.drawerlayout:drawerlayout:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.customview:customview:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.revenuecat.purchases:purchases-core-common:4.0.5@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.revenuecat.purchases:purchases-core-public:4.0.5@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.revenuecat.purchases:purchases-core-utils:4.0.5@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.core:core-ktx:1.3.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.appcompat:appcompat-resources:1.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.vectordrawable:vectordrawable-animated:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.vectordrawable:vectordrawable:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.core:core:1.3.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-runtime:2.3.0-rc01@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.savedstate:savedstate:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-livedata:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-livedata-core:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.arch.core:core-runtime:2.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.versionedparcelable:versionedparcelable:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-viewmodel:2.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.cursoradapter:cursoradapter:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.interpolator:interpolator:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.revenuecat.purchases:purchases-core-strings:4.0.5@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.billingclient:billing:3.0.2@aar" level="project" />
+    <orderEntry type="library" name="Dart SDK" level="project" />
+  </component>
+</module>

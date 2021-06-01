@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.revenuecat.purchases:purchases-core-feature-subscriber-attributes:4.0.5@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f058ac82d8f390d4613ce718123bf120/jetified-purchases-core-feature-subscriber-attributes-4.0.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f058ac82d8f390d4613ce718123bf120/jetified-purchases-core-feature-subscriber-attributes-4.0.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f058ac82d8f390d4613ce718123bf120/jetified-purchases-core-feature-subscriber-attributes-4.0.5/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.revenuecat.purchases/purchases-core-feature-subscriber-attributes/4.0.5/57026190b63b16e6bee9fbad0c13ae3d4f7e616a/purchases-core-feature-subscriber-attributes-4.0.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.revenuecat.purchases/purchases-core-feature-subscriber-attributes/4.0.5/7350eed80d503fdb0526f6e2156961e7563966ce/purchases-core-feature-subscriber-attributes-4.0.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

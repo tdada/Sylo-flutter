@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Volumes/Data/Flutter/testsylo/build/image_cropper/intermediates/res/merged/release/drawable-ldpi-v4/ucrop_ic_done.png",
+        "source": "/Users/lenovo/.gradle/caches/transforms-2/files-2.1/fde90b1fc879779e59b85b2a1f60cc96/jetified-ucrop-2.2.6/res/drawable-ldpi-v4/ucrop_ic_done.png"
+    },
+    {
+        "merged": "/Volumes/Data/Flutter/testsylo/build/image_cropper/intermediates/res/merged/release/drawable-ldpi-v4/ucrop_ic_angle.png",
+        "source": "/Users/lenovo/.gradle/caches/transforms-2/files-2.1/fde90b1fc879779e59b85b2a1f60cc96/jetified-ucrop-2.2.6/res/drawable-ldpi-v4/ucrop_ic_angle.png"
+    }
+]

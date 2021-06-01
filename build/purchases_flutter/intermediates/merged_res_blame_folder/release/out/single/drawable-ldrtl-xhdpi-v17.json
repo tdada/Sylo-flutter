@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Volumes/Data/Flutter/testsylo/build/purchases_flutter/intermediates/res/merged/release/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png",
+        "source": "/Users/lenovo/.gradle/caches/transforms-2/files-2.1/7bba045343976ef694a907641c6370e6/appcompat-1.2.0/res/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/Volumes/Data/Flutter/testsylo/build/purchases_flutter/intermediates/res/merged/release/drawable-ldrtl-xhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "/Users/lenovo/.gradle/caches/transforms-2/files-2.1/7bba045343976ef694a907641c6370e6/appcompat-1.2.0/res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Volumes/Data/Flutter/testsylo/build/purchases_flutter/intermediates/res/merged/release/drawable-ldrtl-xhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "/Users/lenovo/.gradle/caches/transforms-2/files-2.1/7bba045343976ef694a907641c6370e6/appcompat-1.2.0/res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
+    }
+]

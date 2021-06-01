@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Volumes/Data/Flutter/testsylo/build/flutter_uploader/intermediates/res/merged/release/drawable-hdpi-v4/notification_bg_low_normal.9.png",
+        "source": "/Users/lenovo/.gradle/caches/transforms-2/files-2.1/fc2cfdb05f56a327b73f152b01038bc1/core-1.2.0-alpha04/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/Volumes/Data/Flutter/testsylo/build/flutter_uploader/intermediates/res/merged/release/drawable-hdpi-v4/notification_bg_normal_pressed.9.png",
+        "source": "/Users/lenovo/.gradle/caches/transforms-2/files-2.1/fc2cfdb05f56a327b73f152b01038bc1/core-1.2.0-alpha04/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/Volumes/Data/Flutter/testsylo/build/flutter_uploader/intermediates/res/merged/release/drawable-hdpi-v4/notify_panel_notification_icon_bg.png",
+        "source": "/Users/lenovo/.gradle/caches/transforms-2/files-2.1/fc2cfdb05f56a327b73f152b01038bc1/core-1.2.0-alpha04/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/Volumes/Data/Flutter/testsylo/build/flutter_uploader/intermediates/res/merged/release/drawable-hdpi-v4/notification_bg_normal.9.png",
+        "source": "/Users/lenovo/.gradle/caches/transforms-2/files-2.1/fc2cfdb05f56a327b73f152b01038bc1/core-1.2.0-alpha04/res/drawable-hdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/Volumes/Data/Flutter/testsylo/build/flutter_uploader/intermediates/res/merged/release/drawable-hdpi-v4/ic_upload.png",
+        "source": "/Users/lenovo/.pub-cache/hosted/pub.dartlang.org/flutter_uploader-1.2.1/android/src/main/res/drawable-hdpi/ic_upload.png"
+    },
+    {
+        "merged": "/Volumes/Data/Flutter/testsylo/build/flutter_uploader/intermediates/res/merged/release/drawable-hdpi-v4/notification_bg_low_pressed.9.png",
+        "source": "/Users/lenovo/.gradle/caches/transforms-2/files-2.1/fc2cfdb05f56a327b73f152b01038bc1/core-1.2.0-alpha04/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
+    }
+]

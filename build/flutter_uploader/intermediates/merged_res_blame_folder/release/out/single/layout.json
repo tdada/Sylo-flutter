@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Volumes/Data/Flutter/testsylo/build/flutter_uploader/intermediates/res/merged/release/layout/notification_action_tombstone.xml",
+        "source": "/Users/lenovo/.gradle/caches/transforms-2/files-2.1/fc2cfdb05f56a327b73f152b01038bc1/core-1.2.0-alpha04/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Flutter/testsylo/build/flutter_uploader/intermediates/res/merged/release/layout/notification_template_icon_group.xml",
+        "source": "/Users/lenovo/.gradle/caches/transforms-2/files-2.1/fc2cfdb05f56a327b73f152b01038bc1/core-1.2.0-alpha04/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Flutter/testsylo/build/flutter_uploader/intermediates/res/merged/release/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/lenovo/.gradle/caches/transforms-2/files-2.1/fc2cfdb05f56a327b73f152b01038bc1/core-1.2.0-alpha04/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Flutter/testsylo/build/flutter_uploader/intermediates/res/merged/release/layout/notification_template_part_time.xml",
+        "source": "/Users/lenovo/.gradle/caches/transforms-2/files-2.1/fc2cfdb05f56a327b73f152b01038bc1/core-1.2.0-alpha04/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Flutter/testsylo/build/flutter_uploader/intermediates/res/merged/release/layout/notification_action.xml",
+        "source": "/Users/lenovo/.gradle/caches/transforms-2/files-2.1/fc2cfdb05f56a327b73f152b01038bc1/core-1.2.0-alpha04/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Flutter/testsylo/build/flutter_uploader/intermediates/res/merged/release/layout/custom_dialog.xml",
+        "source": "/Users/lenovo/.gradle/caches/transforms-2/files-2.1/fc2cfdb05f56a327b73f152b01038bc1/core-1.2.0-alpha04/res/layout/custom_dialog.xml"
+    }
+]
